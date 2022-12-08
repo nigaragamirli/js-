@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="nəticə()">Nəticə</button>
+</body>
+</html>
+<script>
+    var number1=prompt("Rəqəm daxil edin")
+    document.write(`<h1> Birinci ədəd: </h1>`)
+    document.write(`<h1> ${number1}</h1>`)
+    var number2=prompt("Rəqəm daxil edin")
+    document.write(`<h1> İkinci ədəd: </h1>`)
+    document.write(`<h1> ${number2}</h1>`)
+    var number3=prompt("Rəqəm daxil edin")
+    document.write(`<h1> Üçüncü ədəd: </h1>`)
+    document.write(`<h1> ${number3}</h1>`)
+    var number4=prompt("Rəqəm daxil edin")
+    document.write(`<h1> Dördüncü ədəd: </h1>`)
+    document.write(`<h1> ${number4}</h1>`)
+    var result=(Number(number1)+Number(number2)+Number(number3)+Number(number4))
+    document.write(`<h1> Nəticə: </h1>`)
+    function nəticə(){
+        document.write(`<h1> ${result}</h1>`)
+    }
+</script>
